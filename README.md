@@ -1,2 +1,2 @@
-# simple-calculator
-By using this we can do simple calcuations like addition,substraction,multiplication and division.In this i have used Html,css(With bootstrap) and java script for calculations.
+# fitness-bot
+This is a fitness bot which contains the calculation of Body Mass Index(BMI),food diet to loose or gain weight based on your bmi and exercises to maintain constant weight or to lose weight.In this I used html,css and java script.
