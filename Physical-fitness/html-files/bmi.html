@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>welcome</title> 
+        <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="massindex.css">  
+        <script type="text/javascript">
+            function BMI() {
+                var height = Number(document.getElementById("height").value);
+                var weight = Number(document.getElementById("weight").value);
+                var BMI =weight / Math.pow(height, 2)*10000;
+                document.getElementById("output").innerText = Math.round(BMI * 100)/100;
+                var output = Math.round(BMI * 100)/100
+                if (output < 18.5)
+                    document.getElementById("comment").innerText = "Underweight";
+                else if (output >= 18.5 && output <= 23)
+                    document.getElementById("comment").innerText = "Normal";
+                else if (output>23)
+                    document.getElementById("comment").innerText = "Over weight";
+            }
+        </script>
+        </head>
+        <body>
+            <h1>Body Mass Index Calculator</h1>
+            Enter your height: <input type="text" id="height"/><br><br>
+            Enter your weight: <input type="text" id="weight"/><br><br>
+            <input type="submit" class="a1" value="Get BMI" onclick="BMI();">
+            <h4>Your BMI is: <span id="output">?</span></h4>
+            <h4>This means you are: <span id="comment"> ?</span> </h4> 
+            <h2>To know your diet plan click on he below button:<br></h2>
+            <a href="type.html"><input type="submit" class="a1" name="plan"></a>
+        </body>
+</html>
