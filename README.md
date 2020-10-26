@@ -5,3 +5,4 @@ This is a fitness bot which contains the calculation of Body Mass Index(BMI),foo
 https://WillingDeepMouse.neelaveni.repl.co
 
 # youtube link
+https://youtu.be/D5mRxC5exro
