@@ -1,0 +1,29 @@
+body{
+    background-image:url("https://cutewallpaper.org/21/dark-color-background/Dark-Color-Hd-Background-Metro-Wallpapers.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: antiquewhite;
+    color:rgb(248, 103, 45);
+    margin:20px;
+}
+.a{
+    border-style: inherit;
+    border-radius: 10px;
+    height:100px;
+    width:80px;
+}
+div{
+    margin-top:20px;
+}
+h1{
+    color:pink;
+}
+.a1{
+    border-style: double;
+    border-radius:10px;
+    margin-left:20%;
+    height:30px;
+    width:100px;
+    background-color:blue;
+    color:pink;
+}
