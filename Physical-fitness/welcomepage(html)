@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>welcome</title>
+        <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="mywishes.css">
+    </head>
+    <body>
+        <h1>Welcome to the physical fitness web page.</h1>
+        <h3>In this page we calculate the bmi and what are the best exercise and diet you should take to make your body fit</h3>
+        <h3>To calculate your bmi click on the following image.</h3>
+        <a href="bmi.html"><img class="a" src="https://wellspring.edu/wp-content/uploads/2020/09/fitness-nutrition-hero-opt.jpg"></a>
+    </body>
+</html>
